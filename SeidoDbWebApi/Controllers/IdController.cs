@@ -14,7 +14,7 @@ namespace DbAppWebApi.Controllers
     {
         private ILogger<LogController> _logger;
 
-        //GET /Log
+        //GET /I
         [HttpGet()]
         [ProducesResponseType(200, Type = typeof(string))]
         public string Get([FromServices] ILoggerProvider myLogger)
